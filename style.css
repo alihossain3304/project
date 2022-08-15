@@ -1,0 +1,135 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.bodyContainer{
+   background-color: antiquewhite;
+}
+
+
+.headerInfo {
+   width: 600px;
+}
+
+.headerContainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15rem;
+}
+
+.headerInfo h1 {
+   font-size: 4rem;
+   color: blue;
+}
+
+.headerInfo button {
+   background-color: orange;
+   padding: 10px 15px;
+   font-size: 23px;
+   border: none;
+
+}
+
+.headerInfo p {
+   font-size: 16px;
+}
+
+.menuCOntainer {
+   display: flex;
+   justify-content: space-between;
+}
+
+.menu ul li {
+   display: inline-block;
+   margin: 20px;
+   font-size: 25px;
+}
+
+.menu ul li a {
+   text-decoration: none;
+}
+
+.menu ul li a:hover {
+   background-color: orange;
+   color: white;
+   padding: 10px;
+   border-radius: 8px;
+   transition: 0.5s;
+}
+
+.logo {
+   margin: 20px;
+}
+.serviceCard img{
+   width: 10rem;
+}
+.serviceCard{
+   text-align: center;
+   border-radius: 10px;
+   display: flex;
+   gap: 80px;
+   width: 900px;
+}
+
+.serviceContainer{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 80px;
+   padding-bottom: 89px;
+   background-color: lightgray;
+
+}
+.serviceInfo{
+   width: 550px;
+}
+
+.aboutContainer{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   padding-bottom: 40px;
+}
+.aboutPhoto img{
+   margin-top: 30px;
+   width: 60%;
+}
+.aboutInfo{
+   margin-top: 10%;
+   width: 40%;
+}
+.education{
+   background-color: #81c5da;
+   padding: 10px;
+}
+.educationinfo{
+   background-color: blanchedalmond;
+   padding: 30px;
+   border-radius: 20px;
+}
+.MyConteinr{
+   width: 80%;
+   margin: auto;
+   padding-bottom: 40px;
+}
+.projectCard{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   gap: 30px;
+   flex-wrap: wrap;
+}
+.card-group{
+   text-align: center;
+   margin-right: 30px;
+}
+
+.priceContainer{
+   width: 50%;
+   margin: auto;
+}
+.footerCOntainer{
+   width: 99%;
+   margin: auto;
+}
